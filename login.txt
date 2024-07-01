@@ -1,0 +1,73 @@
+!DOCTYPE html>
+<html lang="en">
+    <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-image:url(back.jpg) ;
+            background-size:cover ;
+        }
+        .container{
+            top:50%;
+            left:50%;
+            position:absolute;
+            transform:translate(-50%,-50%);
+        }
+        .card{
+            padding: 60px  50px  60px  40px ;
+            background-color:rgb(50, 50, 50);
+            border-radius:20px;
+        }
+       #name{
+        width: 200px;
+        border: none;
+        background:transparent ;
+        border-bottom: 1px solid white;
+        padding: 10px;
+        margin-bottom: 15px;
+       } 
+       #button{
+        border-radius: 20px;
+        padding: 10px 20px;
+        background: rgb(84, 84, 230);
+        color: white;
+        margin top: 10px;
+        border:none;
+        outline:none;
+        margin-left:50px;
+        font-size:15px;
+       }
+       #button:hover{
+        background-color:rgb(105, 105, 168);
+        color:black
+       }
+       a{
+        font-size: 13px;
+        color: rgb(202, 30, 30);
+       }
+       img{
+        border-radius: 50px;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: -50px;
+       }
+       
+    </style>
+</head>
+<body>
+   <div class="container">
+    <img src="image2.png" height="70" width="70">
+    <div class ="card">
+        <input type="text" placeholder="username"><br>
+        <input type="password" placeholder="password"><br>
+        <href="#" style="color:powderblue ;">forget password</a><br>
+        <input type="submit" value="submit" id="button">
+    </div>
+</div>
+</body>
+</html>
